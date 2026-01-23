@@ -138,25 +138,80 @@
 # x = txt.encode()
 # print(x)
 
+
+
+
+
 #!/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
+# import math
+# import os
+# import random
+# import re
+# import sys
 
 
 
-if __name__ == '__main__':
-    n = int(input().strip())
+# if __name__ == '__main__':
+#     n = int(input().strip())
 
-if n % 2 == 1:
-    print("weird")
-else:
-    if 2 <= n <= 5:
-        print("Not Weird")
-    elif 6 <= n <= 20:
-        print("Weird")
-    else:
-        print("Not Weird")
+# if n % 2 == 1:
+#     print("weird")
+# else:
+#     if 2 <= n <= 5:
+#         print("Not Weird")
+#     elif 6 <= n <= 20:
+#         print("Weird")
+#     else:
+#         print("Not Weird")
+
+
+# print(10 > 9)
+# print(10 == 9)
+# print(10 < 9)
+
+
+# a = 200
+# b = 33
+
+# if b > a:
+#   print("b is greater than a")
+# else:
+#   print("b is not greater than a")
+
+# print(bool("Hello"))
+# print(bool(15))
+# x = "Hello"
+# y = 15
+
+# print(bool(x))
+# print(bool(y))
+
+# bool("abc")
+# bool(123)
+# bool(["apple", "cherry", "banana"])
+
+# class myclass():
+#   def __len__(self):
+#     return 0
+
+# myobj = myclass()
+# print(bool(myobj))
+
+
+
+# def myFunction():
+#     return True
+# print(myFunction())
+
+
+# def myFunction() :
+#   return True
+
+# if myFunction():
+#   print("YES!")
+# else:
+#   print("NO!")
+
+
+
