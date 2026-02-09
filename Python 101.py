@@ -213,5 +213,102 @@
 # else:
 #   print("NO!")
 
+# x = 15
+# y = 4
+
+# print(x + y)
+# print(x - y)
+# print(x * y)
+# print(x / y)
+# print(x % y)
+# print(x ** y)
+# print(x // y)
+
+# numbers = [1, 2, 3, 4, 5]
+# count = len(numbers)
+# if count > 3:
+#     print(f"List has {count} elements")
+
+# if (count := len(numbers)) > 3:
+#     print(f"List has {count} elements")
+
+# x = 5
+
+# print(1 < x < 10)
+
+# print(1 < x and x < 10)
+# x = 5
+
+# # print(x > 0 and x < 10
+# x = ["apple", "banana"]
+# y = ["apple", "banana"]
+# z = x
+
+# print(x is z)
+# print(x is y)
+# print(x == y)
+
+# x = ["apple", "banana"]
+# y = ["apple", "banana"]
+
+# print(x is not y)
 
 
+# fruits = ["apple", "banana", "cherry"]
+
+# print("banana" not in fruits)
+
+
+# def is_leap(year):
+    
+#     if year % 400 == 0:
+#         return True
+#     elif year % 100 == 0:
+#         return False
+#     elif year % 4 == 0:
+#         return True
+
+#     else:
+#         return False
+
+# year = int(input())
+# print(is_leap(year))
+
+
+# thislist = ["apple", "banana", "cherry", "apple", "cherry"]
+# print(thislist)
+# thislist = ["apple", "banana", "cherry"]
+# print(len(thislist))
+
+# list1 = ["apple", "banana", "cherry"]
+# list2 = [1, 5, 7, 9, 3]
+# list3 = [True, False, False]
+
+# thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
+# print(thislist)
+
+# thislist = ["apple", "banana", "cherry"]
+# print(thislist[-1])
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[2:5])
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[:4])
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[2:])
+
+# thislist = ["apple", "banana", "cherry"]
+# if "apple" in thislist:
+#   print("Yes, 'apple' is in the fruits list")
+
+
+
+# thislist = ["apple", "banana", "cherry"]
+# thislist[1:2] = ["blackcurrant", "watermelon"]
+# print(thislist) 
+
+# thislist = ["apple", "banana", "cherry"]
+# thislist[1:3] = ["watermelon"]
+# print(thislist)
