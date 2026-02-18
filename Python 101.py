@@ -407,17 +407,23 @@
 # myclass = MyNumbers()
 # myiter = iter(myclass)
 
-# for x in myiter:
-#   print(x)
-investment_in_bitcoin = 1.2
-bitcoin_value_usd = 40000
+# # for x in myiter:
+# #   print(x)
+# investment_in_bitcoin = 1.2
+# bitcoin_value_usd = 40000
 
-# 1) write a function to calculate bitcoin to usd
-def bitcoinToUSD(bitcoin_amount, bitcoin_value_usd):
-    usd_value = bitcoin_amount * bitcoin_value_usd
-    return usd_value
-# 2) use function to calculate if the investment is below $30,000
-investment_value = bitcoinToUSD(investment_in_bitcoin, bitcoin_value_usd)
+# # 1) write a function to calculate bitcoin to usd
+# def bitcoinToUSD(bitcoin_amount, bitcoin_value_usd):
+#     usd_value = bitcoin_amount * bitcoin_value_usd
+#     return usd_value
+# # 2) use function to calculate if the investment is below $30,000
+# investment_value = bitcoinToUSD(investment_in_bitcoin, bitcoin_value_usd)
 
-if investment_value <= 30000:
-    print("Alert, Bitcoin value is below 30,0000$.")
+# if investment_value <= 30000:
+#     print("Alert, Bitcoin value is below 30,0000$.")
+
+# from itertools import groupby
+# s = input()
+# for key, group in groupby(s):
+#     a = len(list(group)), int(key)
+#     print((a), end=" ")
