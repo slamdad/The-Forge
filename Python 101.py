@@ -427,3 +427,24 @@
 # for key, group in groupby(s):
 #     a = len(list(group)), int(key)
 #     print((a), end=" ")
+
+# def hello():
+#     print("Hello World")
+
+# hello()
+
+
+# def calculate_sum(a, b):
+#     return(a + b)
+
+# my_sum = calculate_sum(1, 2)
+# print(my_sum)
+
+my_var = 10  # A global variable
+
+def change_var():
+    global my_var  # Allows modification of a global variable
+    my_var = 20
+
+change_var()
+print(my_var)
