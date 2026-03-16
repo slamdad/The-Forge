@@ -436,15 +436,17 @@
 
 # def calculate_sum(a, b):
 #     return(a + b)
+#
 
 # my_sum = calculate_sum(1, 2)
-# print(my_sum)
 
-my_var = 10  # A global variable
 
-def change_var():
-    global my_var  # Allows modification of a global variable
-    my_var = 20
+#numbers = [1, 2, 3, 4, 5]
+#numbers.pop(1)
 
-change_var()
-print(my_var)
+
+
+#programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust')
+#programming_languages.count('Rust')
+#print(programming_languages.count('Rust'))
+ 
