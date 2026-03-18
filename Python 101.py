@@ -450,3 +450,62 @@
 #programming_languages.count('Rust')
 #print(programming_languages.count('Rust'))
  
+# for num in range(1,5,2):
+#     print(num)
+
+# for num in range(40, 0, -10):
+#     print(num)
+
+# numbers = list(range(2, 11, 2))
+# print(numbers)
+
+# for numbers in range(2, 11, 2):
+#  print(numbers)
+
+# languages = ['Spanish', 'English', 'Russian', 'Chinese']
+
+# index = 0
+
+# for language in languages:
+#     print(f'Index {index} and language {language}')
+#     index += 1
+
+# languages = ['Spanish', 'English', 'Russian', 'Chinese']
+
+# for index, language in enumerate(languages):
+#     print(f'Index {index} and language {language}')
+# languages = ['Spanish', 'English', 'Russian', 'Chinese']
+
+# for index, language in enumerate(languages, 1):
+#     print(f'Index {index} and language {language}')
+
+# developers = ['Naomi', 'Dario', 'Jessica', 'Tom']
+# ids = [1, 2, 3, 4]
+
+# for name, id in zip(developers, ids):
+#     print(f'Name: {name}')
+#     print(f'ID: {id}')
+
+# words = ['tree', 'sky', 'mountain', 'river', 'cloud', 'sun']
+
+# def is_long_word(word):
+#     return len(word) > 4
+
+# long_words = list(filter(is_long_word, words))
+# print(long_words) # ['mountain', 'river', 'cloud']
+
+# celsius = [0, 10, 20, 30, 40]
+
+# def to_fahrenheit(temp):
+#     return (temp * 9/5) + 32
+
+# fahrenheit = list(map(to_fahrenheit, celsius))
+# print(fahrenheit) # [32.0, 50.0, 68.0, 86.0, 104.0]
+
+# numbers = [5, 10, 15, 20]
+# total = sum(numbers)
+# print(total) # Result: 50
+
+# numbers = [5, 10, 15, 20]
+# total = sum(numbers, 10) # positional argument
+# print(total) # 60
