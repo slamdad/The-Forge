@@ -572,3 +572,19 @@
 
 # for index, price in enumerate(products.values()):
 #     print(index, price)
+
+
+# import math 
+
+# result = math.sqrt(36)
+
+# print(result)
+
+# import math as not_math
+
+# result = not_math.sqrt(36)
+
+# print(result)
+# from module_name import name1, name2
+# from module_name import name1 as name, name2 as name_2
+
