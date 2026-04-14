@@ -588,3 +588,19 @@
 # from module_name import name1, name2
 # from module_name import name1 as name, name2 as name_2
 
+
+# def validate(data):
+#     is_sequence = isinstance(data, (list, tuple))
+
+#     if not is_sequence:
+#         print('Invalid format: expected a list or tuple.')
+#         return False
+        
+#     is_invalid = False
+
+person = {
+   'name': 'John',
+   'age': 33
+}
+
+print(person.keys()) 
