@@ -1,4 +1,4 @@
-** start of main.py **
+# ** start of main.py **
 
 test_settings = {
     'theme': 'dark', 
@@ -44,5 +44,5 @@ def view_settings(settings):
         return result + "\n"
 
 
-** end of main.py **
+# ** end of main.py **
 
