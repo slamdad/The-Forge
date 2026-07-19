@@ -93,5 +93,5 @@ def main():
     ramy.delete_email(1)
     ramy.check_inbox()
     
-if __name__ == '__main__':
+if __name__ == '__mainv_':
     main()
